@@ -7,6 +7,8 @@ import Login from "../containers/Loginpage/Login";
 import CreateAccPage from "../containers/Loginpage/CreateAccPage";
 import ForgotPwd from "../containers/Loginpage/ForgotPwd";
 import go from "../helpers/RoutingUrls";
+import Homepage from "../containers/Homepage/Homepage";
+import AllServices from "../containers/Servicespage/AllServices";
 
 const Routes = () => {
   return (
@@ -18,6 +20,8 @@ const Routes = () => {
         <Route exact path={go.createAcc} element={<CreateAccPage />} />
         <Route exact path={go.adminCreateAcc} element={<CreateAccPage />} />
         <Route exact path={go.forgotPwd} element={<ForgotPwd />} />
+        <Route exact path={go.homePage} element={<Homepage />} />
+        <Route exact path={go.services} element={<AllServices />} />
       </Switch>
     </Router>
   );
