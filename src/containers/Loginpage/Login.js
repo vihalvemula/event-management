@@ -41,6 +41,11 @@ const Login = () => {
               margin="normal"
               fullWidth
               sx={{ margin: "21px 0 0 0" }}
+              onClick={() => {
+                location?.pathname?.includes("admin")
+                  ? navigate(go.adminCreateAcc)
+                  : navigate(go.homePage);
+              }}
             >
               Submit
             </Button>

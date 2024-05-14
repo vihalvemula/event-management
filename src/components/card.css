@@ -1,0 +1,29 @@
+.card {
+  /* width: 97vw;
+  height: 200px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cardStyle {
+  height: 70px;
+  width: 270px;
+  background-color: rgb(205, 82, 102) !important;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.cardStyle2 {
+  height: 120px;
+  width: 400px;
+  background-color: rgb(205, 82, 102) !important;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 120px;
+  cursor: pointer;
+}

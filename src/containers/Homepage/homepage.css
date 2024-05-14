@@ -1,0 +1,106 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+.header {
+  height: 15vh;
+  background-color: rgb(205, 82, 102);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  padding: 0 20px;
+}
+
+.headerLogo img {
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+}
+
+.homePageImg {
+  background-image: url("../../images/homepageMainImage.jpg");
+  height: 60vh;
+  background-size: cover;
+  width: -webkit-fill-available;
+  object-fit: cover;
+  background-position: center;
+}
+
+.headerChip {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5px;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.headerChipTag {
+  width: 140px !important;
+  height: 50px !important;
+  font-size: 20px !important;
+}
+
+.homePageFilters {
+  background-color: rgb(231, 149, 163);
+  display: flex;
+  margin: 15px 400px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+
+.homePageImgInner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.homePageFilters button {
+  height: 55px;
+  border-radius: 5px;
+  width: 300px;
+  background-color: rgb(233, 78, 103);
+  border: 2px solid rgb(233, 78, 103);
+}
+
+.card {
+  /* width: 97vw;
+  height: 200px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  height: 15vh;
+  background-color: rgb(205, 82, 102);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px !important;
+  margin-top: 10px;
+}
+
+.footerContact1 {
+  padding-left: 20px !important;
+}
+
+.footerContact2 {
+  display: flex;
+  flex-direction: column !important;
+  flex-direction: column !important;
+  align-items: flex-end;
+  padding-right: 40px;
+}
