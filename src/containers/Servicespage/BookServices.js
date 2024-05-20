@@ -1,17 +1,18 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import BookVenue from "./BookVenue";
 import VenuesListPage from "./VenuesListPage";
 
-const AllServices = () => {
+const BookServices = () => {
   return (
     <div>
       <Header />
       <div style={{ flex: 1, minHeight: "100vh" }}>
-        <VenuesListPage />
+        <BookVenue />
       </div>
       <Footer />
     </div>
   );
 };
 
-export default AllServices;
+export default BookServices;

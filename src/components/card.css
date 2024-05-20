@@ -1,3 +1,10 @@
+.box {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 20px !important;
+  width: 90vw;
+}
+
 .card {
   /* width: 97vw;
   height: 200px; */

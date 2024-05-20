@@ -8,7 +8,11 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <div className="header">
-      <div className="headerLogo">
+      <div
+        className="headerLogo"
+        onClick={() => navigate(go.homePage)}
+        style={{ cursor: "pointer" }}
+      >
         <img src={logo} alt="logo" />
       </div>
       <div className="headerChip">
@@ -30,9 +34,9 @@ const Header = () => {
         <Chip
           className="headerChipTag"
           label="Wishlist"
-          //   onClick={() => {
-          //     navigate("/homepage");
-          //   }}
+          onClick={() => {
+            navigate(go.wishList);
+          }}
         />
         <Chip
           className="headerChipTag"

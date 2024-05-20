@@ -18,7 +18,7 @@ import { useNavigate } from "react-router-dom";
 const Homepage = () => {
   const navigate = useNavigate();
   const services = [
-    "Services",
+    "Venues",
     "Makeup",
     "Photography",
     "Catering",
@@ -73,9 +73,11 @@ const Homepage = () => {
                       //label="Age"
                       // onChange={handleChange}
                     >
-                      <MenuItem value={10}>Ten</MenuItem>
-                      <MenuItem value={20}>Twenty</MenuItem>
-                      <MenuItem value={30}>Thirty</MenuItem>
+                      <MenuItem value={"Delhi"}>Ten</MenuItem>
+                      <MenuItem value={"Hyderabad"}>Twenty</MenuItem>
+                      <MenuItem value={"Mumbai"}>Thirty</MenuItem>
+                      <MenuItem value={"Pune"}>Thirty</MenuItem>
+                      <MenuItem value={"Goa"}>Thirty</MenuItem>
                     </Select>
                   </FormControl>
 
@@ -104,18 +106,6 @@ const Homepage = () => {
                   Our Services
                 </Typography>
                 <Box height={400} width={700} className="card">
-                  {/* {[
-                    "Services",
-                    "Makeup",
-                    "Photography",
-                    "Catering",
-                    "Decoration",
-                    "Music& Dance",
-                    "Mehndi",
-                    "Invitation Cards",
-                  ].map((item) => (
-                    <Card title={item} />
-                  ))} */}
                   {services.map((item) => (
                     <Card
                       title={item}

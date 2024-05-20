@@ -47,7 +47,7 @@ const ForgotPwd = () => {
               variant="contained"
               margin="normal"
               fullWidth
-              sx={{ margin: "21px 0" }}
+              sx={{ margin: "21px 0", backgroundColor: "rgb(205, 82, 102)" }}
               onClick={() => {
                 navigate(go.login);
               }}
