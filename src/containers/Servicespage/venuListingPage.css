@@ -1,0 +1,18 @@
+.venueCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 70px;
+  justify-content: flex-start;
+}
+
+.filter {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 200px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,6 +1,7 @@
 .lgnDtls img {
   width: -webkit-fill-available;
   height: 100vh;
+  object-fit: cover;
 }
 
 .lgnDtls2 {
